@@ -1,14 +1,15 @@
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="photo.png"  width="150" height="150" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="photo.png"  width="160" height="160" ></div>
 <p align="right">
   <font size="4"><b>Wei CHEN</b></font>
-</p>
-<p align="right">
+  <br><br>
   <font size="3">Ph.D. Student at CSE(since Fall 2019)
     <br>E-mail: wchenbt [at] cse [dot] ust [dot] hk
     <br>Office: Lift 31, Room 3664, Academic Building
     <br>Hong Kong University of Science and Technology
   </font>
 </p>
+
+----
 <p>
   <font size="4"><b>Biography</b></font>
   <br>
