@@ -2,8 +2,8 @@
   <div style="float:left; clear: right;">
     <p align="left">
       <img src="photo.png"  width="160" height="160">
-      <a href="https://github.com/harperchen"><img src="github.svg" width="40" height="40" style="position:relative; top:60px"/></a>
-      <a href="https://www.linkedin.com/in/wei-chen-9a7659190/"><img src="linkedin.svg"  width="40" height="40" style="position:relative; top:60px"/></a>
+      <a href="https://github.com/harperchen"><img src="github.svg" width="35" height="35" style="position:relative; top:60px"/></a>
+      <a href="https://www.linkedin.com/in/wei-chen-9a7659190/"><img src="linkedin.svg"  width="35" height="35" style="position:relative; top:60px"/></a>
     </p>
   </div>
   <div class="rightbox"> 
