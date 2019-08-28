@@ -49,7 +49,7 @@
 </p>
 ---
 
-<div><img src="strawberry.png"  width="25" height="20" style="position:relative; bottom:4px">Link to <a href="https://zhangshurong.github.io/">Boyfriend</a>, <b>Test Engineer</b> @ Tencent</div>
+<div><img src="strawberry.png"  width="20" height="20" style="position:relative; bottom:4px"> Link to <a href="https://zhangshurong.github.io/">Boyfriend</a>, <b>Test Engineer</b> @ Tencent</div>
 
 © Last Updated: August 2019
 
