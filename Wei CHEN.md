@@ -1,4 +1,8 @@
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="photo.png"  width="160" height="160" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;">
+  <img src="photo.png"  width="160" height="160">
+  <a href="https://github.com/harperchen"><img src="github.svg"  width="40" height="40" style="position:relative;top:60px;"></a>
+  <a href="https://www.linkedin.com/in/wei-chen-9a7659190/"><img src="linkedin.svg"  width="40" height="40" style="position:relative;top:60px;"></a>
+</div>
 <p align="right">
   <font size="4"><b>Wei CHEN</b></font>
   <br><br>
@@ -7,9 +11,8 @@
     <br>Office: Lift 31, Room 3664, Academic Building
     <br>Hong Kong University of Science and Technology
   </font>
-</p>
-
-----
+  </p>
+---
 <p>
   <font size="4"><b>Biography</b></font>
   <br>
