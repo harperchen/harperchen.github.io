@@ -18,7 +18,6 @@
     </p>
   </div>
 </div>
-
 ---
 <p>
   <font size="4"><b>Biography</b></font>
@@ -29,7 +28,6 @@
   <br>
   <br>My research interests include software and system security, binary analysis and reverse engineering.
 </p>
-
 ---
 <p>
   <font size="4"><b>Selected Experiences</b></font>
@@ -50,6 +48,8 @@
   <li><b>Conference reviewer</b>, Artifact evaluation trace,  <a href="https://2019.icse-conferences.org/">ICSE 2019</a>
 </p>
 ---
+
+<div><img src="strawberry.png"  width="25" height="20" style="position:relative; bottom:4px">Link to <a href="https://zhangshurong.github.io/">Boyfriend</a>, <b>Test Engineer</b> @ Tencent</div>
 
 © Last Updated: August 2019
 
