@@ -10,7 +10,7 @@
     <p align="right">
       <font size="5"><b>Wei CHEN</b></font>
       <br><br>
-      <font size="3">Ph.D. Student at CSE (since Fall 2019)
+      <font size="3">MPhil Student at CSE (since Fall 2019)
         <br>E-mail: wchenbt [at] cse [dot] ust [dot] hk
         <br>Office: Lift 31, Room 3664, Academic Building
         <br>Hong Kong University of Science and Technology
@@ -24,7 +24,7 @@
 <p>
   <font size="4"><b>Biography</b></font>
   <br>
-  <br>I am currently a Ph.D. year 2 student at <a href="http://www.cse.ust.hk/">Department of Computer Science and Engineering</a>, <a href="https://www.ust.hk/">Hong Kong University of Science and Technology</a>, supervised by <a href="https://home.cse.ust.hk/~shuaiw/">Prof. Shuai Wang</a>.
+  <br>I am currently a MPhil year 2 student at <a href="http://www.cse.ust.hk/">Department of Computer Science and Engineering</a>, <a href="https://www.ust.hk/">Hong Kong University of Science and Technology</a>, supervised by <a href="https://home.cse.ust.hk/~shuaiw/">Prof. Shuai Wang</a>.
   <br>
   <br>Before joining HKUST, I received my B.E. degree from <a href="http://www.cs.hust.edu.cn/">Department of Computer Science and Technology</a>, <a href="http://www.hust.edu.cn/">Huazhong University of Science and Technology</a>, Wuhan, China in 2019.
   <br>
