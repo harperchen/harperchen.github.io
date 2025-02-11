@@ -12,26 +12,1186 @@
     </style>
 </head>
 <body>
-    <h1>Subsystem Bug Report</h1>
-    <table>
+    <h1>Bugs Found by SEAL</h1>
+    <table border="1">
         <tr>
             <th>Subsystem</th>
             <th>Buggy Function</th>
             <th>Bug Status</th>
             <th>Bug Type</th>
         </tr>
+
         <tr>
             <td>media/usb</td>
             <td>gl861_i2c_master_xfer</td>
             <td>Null Ptr Deref</td>
             <td>Applied</td>
         </tr>
+    
         <tr>
             <td>media/usb</td>
             <td>af9035_i2c_master_xfer</td>
             <td>Null Ptr Deref</td>
             <td>Applied</td>
         </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>rtl28xxu_i2c_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>az6007_i2c_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>anysee_master_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>az6027_i2c_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>ec168_i2c_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>ce6230_i2c_master_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>dw2102_i2c_transfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>af9005_i2c_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>digitv_i2c_xfer</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>lxfb_check_var</td>
+            <td>Divide By Zero</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>tgafb_check_var</td>
+            <td>Divide By Zero</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>nvidiafb_check_var</td>
+            <td>Divide By Zero</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>intelfb_check_var</td>
+            <td>Divide By Zero</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>au1200fb_fb_check_var</td>
+            <td>Divide By Zero</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>usb/host</td>
+            <td>xenhcd_hub_control</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>usb/host</td>
+            <td>max3421_hub_control</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>usb/host</td>
+            <td>fhci_hub_control</td>
+            <td>Out of Bounds</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>md</td>
+            <td>raid1_remove_disk</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>md</td>
+            <td>multipath_remove_disk</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/ethernet</td>
+            <td>cgx_lmac_addr_get</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>staging/ks7010</td>
+            <td>ks_wlan_set_encode_ext</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>tegra_dpaux_probe</td>
+            <td>Memory Leak</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/pci</td>
+            <td>tw68_buf_prepare</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/pci</td>
+            <td>buffer_prepare</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>i2c/busses</td>
+            <td>xgene_slimpro_i2c_xfer</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>edac</td>
+            <td>amd8131_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>rest</td>
+            <td>npcm_usb_reset</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>memory</td>
+            <td>brcmstb_memc_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>imx8qxp_pxl2dpi_parse_dt_companion</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>imx8qxp_ldb_parse_dt_companion</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>mdf</td>
+            <td>pmic_spmi_load_revid</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>sound/soc</td>
+            <td>tegra210_amx_platform_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>nvmem</td>
+            <td>nintendo_otp_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>regulator</td>
+            <td>stm32_booster_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>firmware/meson</td>
+            <td>meson_sm_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>spi</td>
+            <td>stm32_spi_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/berlin</td>
+            <td>as370_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>rcar_lvds_parse_dt_companion</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>tty/serial</td>
+            <td>mvebu_uart_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/mvebu</td>
+            <td>armada_cp110_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>input/keyboard</td>
+            <td>mtk_pmic_keys_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>iio/dac</td>
+            <td>stm32_dac_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>dss_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>soc/imx</td>
+            <td>imx_gpc_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>iio/dac</td>
+            <td>stm32_adc_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>mxsfb_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>mv_xor_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>phy/marvell</td>
+            <td>phy_berlin_usb_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>misc/eeprom</td>
+            <td>eeprom_93xx46_probe_dt</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/mvebu</td>
+            <td>orion_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/berlin</td>
+            <td>berlin2q_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/berlin</td>
+            <td>berlin2cd_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/berlin</td>
+            <td>berlin2_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>soc/pxa</td>
+            <td>pxa_ssp_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>input/keyboard</td>
+            <td>tegra_kbc_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>bus</td>
+            <td>weim_parse_dt</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>atmel_lcdfb_of_init</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>spi</td>
+            <td>mxs_spi_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/mvebu</td>
+            <td>kirkwood_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>pinctrl/mvebu</td>
+            <td>dove_pinctrl_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>mfd</td>
+            <td>mc13xxx_spi_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>power/supply</td>
+            <td>max1720x_probe_nvmem</td>
+            <td>Use After Free</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>usb/misc</td>
+            <td>eud_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>spi</td>
+            <td>tegra_slink_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>au1200fb_drv_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>sound/soc</td>
+            <td>wcd9335_rx_hph_mode_put</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>go7007_register_encoder</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>staging/media</td>
+            <td>meye_probe</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>thermal</td>
+            <td>lmh_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>rzn1_dmamux_route_allocate</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>stm32_dmamux_route_allocate</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>lpc18xx_dmamux_reserve</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma/ti</td>
+            <td>ti_am335x_xbar_route_allocate</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>sound/soc</td>
+            <td>rt5668_i2c_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>sound/soc</td>
+            <td>rt5665_i2c_probe</td>
+            <td>Memory Leak</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>usb/dwc3</td>
+            <td>dwc3_imx8mp_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>ark_pci_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>sound/soc</td>
+            <td>fsl_easrc_probe</td>
+            <td>Memory Leak</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>d40_probe</td>
+            <td>Memory Leak</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>phy/ti</td>
+            <td>twl4030_usb_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>tty/serial</td>
+            <td>atmel_init_port</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>tty/serial</td>
+            <td>linflex_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>tty/serial</td>
+            <td>mps2_init_port</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>tty/serial</td>
+            <td>asc_init_port</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>media/fbdev</td>
+            <td>fast_imageblit</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>spi</td>
+            <td>tegra_sflash_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>uio</td>
+            <td>pruss_probe</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>mmc/host</td>
+            <td>spmmc_drv_probe</td>
+            <td>Memory Leak</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw89_debug_priv_send_h2c_set</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw89_debug_priv_btc_manual_set</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw89_debug_priv_early_h2c_set</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw89_debug_fw_log_btc_manual_set</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_fix_rate</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_fw_crash</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_h2c</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_coex_enable</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_read_reg</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_rsvd_page</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_single_input</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_write_reg</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_rf_write</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtw_debugfs_set_rf_read</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtl_debugfs_set_write_reg</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>net/wireless</td>
+            <td>rtl_debugfs_set_write_rfreg</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>usb/typec</td>
+            <td>typec_retimer_register</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>ata</td>
+            <td>ahci_platform_get_resources</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>dvbsky_read_mac_addr</td>
+            <td>Uninitialized Value</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>su3000_read_mac_address</td>
+            <td>Uninitialized Value</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/usb</td>
+            <td>opera1_read_mac_address</td>
+            <td>Uninitialized Value</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>usb/gadget</td>
+            <td>gfs_bind</td>
+            <td>Wrong Error Code</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>video/fbdev</td>
+            <td>fb_validate_mode</td>
+            <td>Divide By Zero</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>mdc_alloc_chan_resources</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>sprd_dma_alloc_chan_resources</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>d40_alloc_chan_resources</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma/sh</td>
+            <td>usb_dmac_alloc_chan_resources</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma/sh</td>
+            <td>rcar_dmac_alloc_chan_resources</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>hi846_init_controls</td>
+            <td>Memory Leak</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>max2175_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>max9286_v4l2_register</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>mt9m001_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>mt9m111_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>ov772x_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>ov2659_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>iommu</td>
+            <td>apple_dart_of_xlate</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>iommu</td>
+            <td>sun50i_iommu_of_xlate</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>iommu</td>
+            <td>ipmmu_init_platform_device</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>iommu</td>
+            <td>mtk_iommu_of_xlate</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/platform</td>
+            <td>vb2ops_venc_queue_setup</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>media/platform</td>
+            <td>vb2ops_vdec_queue_setup</td>
+            <td>Out of Bounds</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>usb/chipidea</td>
+            <td>tegra_ehci_hub_control</td>
+            <td>Out of Bounds</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>usb/host</td>
+            <td>tegra_xhci_hub_control</td>
+            <td>Out of Bounds</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>usb/host</td>
+            <td>r8a66597_hub_control</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/platform</td>
+            <td>viacam_probe</td>
+            <td>Use After Free</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>gpu/drm</td>
+            <td>dcn21_stream_encoder_create</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/i2c</td>
+            <td>rj54n1_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>media/pci</td>
+            <td>netup_unidvb_initdev</td>
+            <td>Null Ptr Deref</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>firewire</td>
+            <td>fwnet_finish_incoming_packet</td>
+            <td>Use After Free</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>mm</td>
+            <td>shmem_parse_one</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>fs/squashfs</td>
+            <td>squashfs_parse_param</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>fs/ext4</td>
+            <td>ext4_parse_param</td>
+            <td>Null Ptr Deref</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>fs/ceph</td>
+            <td>ceph_parse_mount_param</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>fs/afs</td>
+            <td>afs_parse_param</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>fs/quota</td>
+            <td>dquot_init</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>misc/lkdtm</td>
+            <td>lkdtm_heap_init</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>fs</td>
+            <td>filelock_init</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>fs</td>
+            <td>mnt_init</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/ipv6</td>
+            <td>addrconf_type_change</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/ipv4</td>
+            <td>ipv4_doint_and_flush</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/netlink</td>
+            <td>netlink_diag_dump</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/tipc</td>
+            <td>__tipc_nl_media_set</td>
+            <td>Wrong Error Code</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/bluetooth</td>
+            <td>hci_pa_create_sync</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/bluetooth</td>
+            <td>adv_timeout_expire</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/sched</td>
+            <td>tunnel_key_release</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/sched</td>
+            <td>tcf_mirred_release</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/sched</td>
+            <td>tcf_gate_cleanup</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/hsr</td>
+            <td>prp_get_untagged_frame</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>net/sched</td>
+            <td>mqprio_init</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>bluetooth</td>
+            <td>bcm4377_send_ptb</td>
+            <td>Null Ptr Deref</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>soc/tegra</td>
+            <td>tegra210_pmc_irq_set_wake</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>soc/tegra</td>
+            <td>tegra186_pmc_irq_set_wake</td>
+            <td>Out of Bounds</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>fsl_qdma_probe</td>
+            <td>Memory Leak</td>
+            <td>Confirmed</td>
+        </tr>
+    
+        <tr>
+            <td>dma</td>
+            <td>msgdma_probe</td>
+            <td>Memory Leak</td>
+            <td>Submitted</td>
+        </tr>
+    
+        <tr>
+            <td>soc/codecs</td>
+            <td>rt5682_i2c_probe</td>
+            <td>Use After Free</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>hwtracing/stm</td>
+            <td>stm_register_device</td>
+            <td>Use After Free</td>
+            <td>Applied</td>
+        </tr>
+    
+        <tr>
+            <td>vhost</td>
+            <td>vhost_vdpa_probe</td>
+            <td>Use After Free</td>
+            <td>Applied</td>
+        </tr>
+    
     </table>
+    <p></p><p><span>© Last Updated: Feb 2025</span></p><p>&nbsp;</p>
 </body>
+
 </html>
