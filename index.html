@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <title>Wei CHEN - PhD at HKUST</title><link rel="icon" href="cap.png" type="image/x-icon"><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: Georgia, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
@@ -492,37 +492,111 @@ header, .context-menu, .megamenu-content, footer{
 a {
     text-decoration: none;
 }
-.typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+.typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;}
+
+.profile-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+}
+.profile-left {
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+}
+.profile-photo {
+    width: 38%;
+    max-width: 200px;
+    min-width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 12px;
+}
+.profile-social {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.profile-social a {
+    margin-right: 5px;
+}
+.profile-info {
+    text-align: right;
+    flex: 1;
+    min-width: 0;
+}
+#write .profile-name {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: none;
+    line-height: 1.2;
+}
+.profile-contact {
+    margin: 0.8em 0 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-left {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-photo {
+        width: 120px;
+        max-width: none;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .profile-social {
+        margin-right: 0;
+        margin-bottom: 12px;
+        justify-content: center;
+    }
+    .profile-info {
+        text-align: center;
+        width: 100%;
+    }
+    #write {
+        padding: 16px 20px 60px;
+    }
+}
 </style>
 </head>
 <body class='typora-export' >
 <div  id='write'  class = 'is-mac'><div class="info">
-    <div class="rightbox" style="display: flex; align-items: flex-end; justify-content: space-between;">
-        <div style="display: flex; align-items: flex-end;">
+    <div class="profile-header">
+        <div class="profile-left">
           <img src="photo.png"
+               class="profile-photo"
                onerror="this.style.display = 'none';"
-               style="width: 38%; height: auto; margin-right: 10px; border-radius: 12px;">
-          <div style="display: flex; align-items: center; margin-right: 10px;">
-            <a href="https://github.com/harperchen" style="margin-right: 5px;">
-              <img src="github.svg" width="33" height="33" onerror="this.style.display = 'none';">
+               alt="Wei CHEN">
+          <div class="profile-social">
+            <a href="https://github.com/harperchen">
+              <img src="github.svg" width="33" height="33" onerror="this.style.display = 'none';" alt="GitHub">
             </a>
-            <a href="https://www.linkedin.com/in/wei-chen-9a7659190/"  style="margin-right: 5px;">
-              <img src="linkedin.svg" width="33" height="33" onerror="this.style.display = 'none';">
+            <a href="https://www.linkedin.com/in/wei-chen-9a7659190/">
+              <img src="linkedin.svg" width="33" height="33" onerror="this.style.display = 'none';" alt="LinkedIn">
             </a>
             <a href="https://scholar.google.com.hk/citations?user=PeiNGXEAAAAJ&hl=en">
-                <img src="google.png" width="33" height="33" onerror="this.style.display = 'none';">
+                <img src="google.png" width="33" height="33" onerror="this.style.display = 'none';" alt="Google Scholar">
             </a>
           </div>
         </div>
-        <div style="text-align: right; width:70em; display: flex; flex-direction: column; justify-content: flex-end;">
-          <font size="5"><b>Wei CHEN</b></font>
-          <br>
-          <br>
-          <font size="3">PhD student at CSE
+        <div class="profile-info">
+          <h1 class="profile-name">Wei CHEN</h1>
+          <p class="profile-contact">PhD student at CSE
             <br>E-mail: wchenbt [at] cse [dot] ust [dot] hk
             <br>Office: Lift 20, Room 4204, Academic Building
             <br>Hong Kong University of Science and Technology
-          </font>
+          </p>
         </div>
       </div>
       <hr/>
