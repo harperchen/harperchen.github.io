@@ -40,7 +40,7 @@
   })
   </script>
 <% } %>
-<%- js('js/main') %>
+<script src="<%- url_for('js/main.js') %>?v=20260720"></script>
 <!-- search -->
 <% if (config.search && (page.search || page.type === "search")){ %>
   <%- js('js/search.js') %>
