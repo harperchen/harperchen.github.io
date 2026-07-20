@@ -101,7 +101,7 @@ theme: cactus
 
 # Cactus theme overrides (see themes/cactus/_config.yml for all options)
 theme_config:
-  colorscheme: dark
+  colorscheme: classic
   nav:
     home: /
     articles: /archives/
