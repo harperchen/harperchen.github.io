@@ -2,9 +2,10 @@
 title: LLVM Pass
 date: 2021-01-08 21:09:24
 tags:
+    - Compiler
+    - LLVM
 categories: Techniques
 ---
-
 ### 1. 查看LLVM IR
 
 使用LLVM的编译流程：源码 -> AST -> LLVM IR (`.ll`)-> LLVM Bitcode (`.bc`) -> ASM -> Native
@@ -780,7 +781,7 @@ https://llvm.org/docs/ProgrammersManual.html#the-core-llvm-class-hierarchy-refer
 
 https://github.com/imdea-software/LLVM_Instrumentation_Pass/blob/master/InstrumentFunctions/Pass.cpp
 
-#### 6.1 例子1
+#### 6.1 例子一
 
 查看文件中有没有main函数，如果没有main函数就创建main函数并调用所有模块中的其他函数。
 

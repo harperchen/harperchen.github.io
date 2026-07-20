@@ -2,8 +2,9 @@
 title: '[S&P''19] NEUZZ: Efficient Fuzzing with Neural Program Smoothing'
 date: 2021-03-04 14:50:28
 tags:
+    - Fuzz Testing
+categories: Papers
 ---
-
 One of the main limitations of evolutionary optimization algorithms is that they cannot leverage the structure (*i.e.*, gradients or other higher-order derivatives) of the underlying optimization problem. In this paper, we introduce a novel, efficient, and scalable program smoothing technique using feed-forward Neural Networks (NNs) that can incrementally learn smooth approximations of complex, real-world program branching behaviors, *i.e.*, predicting the control flow edges of the target program exercised by a particular given input. 
 
 <!--more-->

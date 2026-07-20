@@ -2,9 +2,8 @@
 title: Usages and problems of Taint Tools
 date: 2020-09-15 23:18:16
 tags: Taint Analysis
-categories: Taint
+categories: Techniques
 ---
-
 #### 1. Tool Categories
 
 Existing taint analysis tools can be divided into three categories. 

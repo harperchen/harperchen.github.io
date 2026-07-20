@@ -2,8 +2,9 @@
 title: Rebuttal
 date: 2021-04-04 01:53:50
 tags:
+    - Ph.D.
+categories: Ph.D.
 ---
-
 I read this paper before (in about 5 mins or less). And like I mentioned to you, although I don't remember the technical details, but I remember 1) key idea is to ensemble multiple fuzzers together and boost the performance, that's new and should be appreciated, although, well, I wonder if we shall trust their reported results (we should believe unless we have concrete evidence), 2) it's very important to remember who published this paper, although it might be difficult to remember the "name", you at least need to remember the institute.
 
 <!--more-->

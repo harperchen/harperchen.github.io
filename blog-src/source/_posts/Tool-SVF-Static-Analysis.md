@@ -2,8 +2,9 @@
 title: '[Tool] SVF Static Analysis'
 date: 2021-06-04 22:08:45
 tags:
+    - Static Analysis
+categories: Techniques
 ---
-
 ### Static Value-Flow Analysis Framework
 
 A scalable, precise and on-demand interprocedural program dependence analysis framework for both sequential and multithreaded programs.

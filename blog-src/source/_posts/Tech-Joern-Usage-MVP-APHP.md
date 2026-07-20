@@ -3,10 +3,9 @@ title: '[Tech] Joern Usage & MVP & APHP'
 date: 2024-03-28 14:03:43
 tags:
    - Static Analysis
-   - Linux kernel
-categories: 
+   - Kernel
+categories: Techniques
 ---
-
 #### 1. Joern Background
 
 https://docs.joern.io/cpgql/reference-card/
@@ -224,10 +223,12 @@ static int mvebu_uart_probe(struct platform_device *pdev)
 
 **Step 1:** MVP first analyzes the patch and extracts four variables as shown below and $f_{v}$ and $p_v$ are vulnerable and patched function.
 $$
-S_{del}:& \texttt{set of deleted statements} \\
-S_{add}:& \texttt{set of added statements} \\
-S_{vul}:& \texttt{all statements in vulnerable functions} \\
-S_{pat}:& \texttt{all statements in patched functions}
+\begin{aligned}
+S_{del}:&\ \texttt{set of deleted statements} \\
+S_{add}:&\ \texttt{set of added statements} \\
+S_{vul}:&\ \texttt{all statements in vulnerable functions} \\
+S_{pat}:&\ \texttt{all statements in patched functions}
+\end{aligned}
 $$
 
 Thus, for the patch above, $S_{add} = \{s_{14}, s_{15}\}$, $S_{del} = \{\}$.
@@ -249,17 +250,13 @@ For reference, this is the selected PDG for function after patch.
 
 ![graphviz (10)](/Users/harperchen/Downloads/graphviz (10).svg)
 
-
-
 For reference, this is the selected PDG for function before patch.
 
 <img src="/Users/harperchen/Downloads/graphviz (11).svg" height="75%" width="75%">
 
 
 
-> [!IMPORTANT]
->
-> - Joern does not distinguish `a` and `a->b`, any statement that may be affected will be considered as data dependence related one.
+> Joern does not distinguish `a` and `a->b`, any statement that may be affected will be considered as data dependence related one.
 
 **Step 3:** MVP puts the slicing results into $S^{sem}_{del}$ and $S_{add}^{sem}$, making it as semantically-related statements of all changed statements in changed function of security patch.
 
@@ -271,7 +268,7 @@ For reference, this is the selected PDG for function before patch.
 - $V_{sem} = \{(s_1, s_2, \texttt{type}) | s_1, s_2 \in V_{syn}\}$
 
 - $P_{syn} = S^{sem}_{add} \setminus S_{vul}$  statements that only exist in patched function $p_{v}$
-- $P_{sem} = \{(s_1, s_2, \texttt{type}) | s_1, s_2 \in S^{sem}_{add}\} \setminus \{(s_1, s_2, \texttt{type}) | s_1, s_2 \in S_{vul}\} $ data or control dependencies between two statements that only exist in patched function
+- $P_{sem} = \{(s_1, s_2, \texttt{type}) | s_1, s_2 \in S^{sem}_{add}\} \setminus \{(s_1, s_2, \texttt{type}) | s_1, s_2 \in S_{vul}\}$ data or control dependencies between two statements that only exist in patched function
 
 Although the above formula looks quite complicate, but you should notice that
 

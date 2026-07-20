@@ -2,13 +2,12 @@
 title: '[S&P''20] KRACE: Data Race Fuzzing for Kernel File Systems'
 date: 2020-12-24 12:42:43
 tags:
-	- Race Bug
+	- Race Bugs
 	- File System
 	- Fuzz Testing
 	- Kernel
 categories: Papers
 ---
-
 ### Abstract
 
 Data races occur when two threads fail to use proper synchronization when accessing shared data. In kernel file systems, which are highly concurrent by design, data races are common mistakes and often wreak havoc on the users, causing inconsistent states or data losses. Prior fuzzing practices on file systems have been effective in uncovering hundreds of bugs, but they mostly focus on the sequential aspect of file system execution and do not comprehensively explore the concurrency dimension and hence, forgo the opportunity to catch data races.

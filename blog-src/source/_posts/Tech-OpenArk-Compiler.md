@@ -2,8 +2,9 @@
 title: '[Tech] OpenArk Compiler'
 date: 2021-01-08 16:49:25
 tags:
+    - Compiler
+categories: Techniques
 ---
-
 #### 1. Maple IR前端
 
 Maple IR是方舟编译器的中间表示语言，设计原则是尽可能多的保留源文件的信息，其中信息包括声明部分（符号表）和代码部分。Maple IR是平台无关的，不依赖任何处理器。Maple IR也有配套的Maple VM，可以直接运行Maple IR。可以利用不同的前端将C/C++，Java等不同的语言转化成Maple IR，也可以扩展支持别的语言。

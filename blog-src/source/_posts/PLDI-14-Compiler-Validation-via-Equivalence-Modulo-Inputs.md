@@ -2,8 +2,9 @@
 title: '[PLDI''14] Compiler Validation via Equivalence Modulo Inputs'
 date: 2021-05-20 13:57:20
 tags:
+    - Compiler
+categories: Papers
 ---
-
 ### Abstract
 
 We introduce equivalence modulo inputs (EMI), a simple, widely applicable methodology for validating optimizing compilers. Our key insight is to exploit the close interplay between (1) dynamically executing a program on some test inputs and (2) statically compiling the program to work on all possible inputs. Indeed, the test inputs induce a natural collection of the original program’s EMI variants, which can help differentially test any compiler and specifically target the difficult-to-find miscompilations. 

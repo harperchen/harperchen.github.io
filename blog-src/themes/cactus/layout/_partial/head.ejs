@@ -66,15 +66,19 @@
       <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml" />
     <% } %>
 	<!-- mathjax -->
-	<% if (theme.mathjax.enabled) {%>
-		<script type="text/x-mathjax-config">
-		  MathJax.Hub.Config({
-			tex2jax: {
-			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-			  inlineMath: [['$','$']]
-			}
-		  });
+	<% if (theme.mathjax && theme.mathjax.enabled) { %>
+		<script>
+		  window.MathJax = {
+		    tex: {
+		      inlineMath: [['$', '$'], ['\\(', '\\)']],
+		      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+		      processEscapes: true
+		    },
+		    options: {
+		      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+		    }
+		  };
 		</script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+		<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
 	<% } %>
 </head>

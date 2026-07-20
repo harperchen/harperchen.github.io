@@ -2,8 +2,9 @@
 title: '[Tech] Side Channel Attacks'
 date: 2021-03-22 14:20:55
 tags:
+    - Side Channel
+categories: Techniques
 ---
-
 #### Side channel Attacks
 
 Steal Secret through side channels

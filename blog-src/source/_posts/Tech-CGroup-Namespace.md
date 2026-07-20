@@ -5,11 +5,9 @@ author: Wei CHEN
 tags: 
   - CGroup
   - Container
-categories: 
-  - Container
+categories: Techniques
 description: CGroups Experiments including CPUSet, CPU, Memory usage limitation, etc.
 ---
-
 URL: https://kernel.googlesource.com/pub/scm/linux/kernel/git/glommer/memcg/+/cpu_stat/Documentation/cgroups
 
 ## 1. CGroup Installation

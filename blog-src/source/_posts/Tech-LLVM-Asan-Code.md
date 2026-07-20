@@ -2,8 +2,10 @@
 title: LLVM Asan Code
 date: 2021-04-10 21:18:29
 tags:
+    - Memory Safety
+    - LLVM
+categories: Techniques
 ---
-
 #### asan.module_ctor
 
 works the same as \__attribute__((constructor)), insert into section `.init_array`

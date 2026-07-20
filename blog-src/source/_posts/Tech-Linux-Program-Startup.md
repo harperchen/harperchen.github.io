@@ -2,8 +2,9 @@
 title: Linux Program Startup
 date: 2021-04-10 18:02:20
 tags:
+    - Kernel
+categories: Techniques
 ---
-
 原文链接 https://luomuxiaoxiao.com/?p=516
 
 本文介绍main函数如何被执行，并理解如何通过debug了解main函数启动前发生的事情

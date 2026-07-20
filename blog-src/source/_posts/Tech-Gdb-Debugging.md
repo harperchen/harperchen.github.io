@@ -2,8 +2,9 @@
 title: Gdb Usage
 date: 2020-09-23 19:37:42
 tags:
+    - Debugging
+categories: Techniques
 ---
-
 I would like to debug the following C program using gdb to check how to set the memory content to run this program statically using BinCAT.
 <!-- more -->
 ```C

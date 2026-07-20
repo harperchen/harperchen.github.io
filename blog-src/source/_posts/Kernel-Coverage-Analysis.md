@@ -5,11 +5,9 @@ tags:
    - Kernel
 categories: Techniques
 ---
-
 #### 1. Clang Santizer Coverage
 
 给定如下程序`test.c`，该程序有三个边：
-
 ```
 #include <stdio.h>
 

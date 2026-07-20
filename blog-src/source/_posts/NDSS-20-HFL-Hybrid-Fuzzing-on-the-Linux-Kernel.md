@@ -5,10 +5,8 @@ tags:
     - Hybrid Fuzzing
     - Fuzz Testing
     - Kernel
-categories:
-    - Papers
+categories: Papers
 ---
-
 ### Abstract
 
 Hybrid fuzzing, combining symbolic execution and fuzzing, is a promising approach for vulnerability discovery because each approach can complement the other. However, we observe that applying hybrid fuzzing to kernel testing is challenging because the following unique characteristics of the kernel make a naive adoption of hybrid fuzzing inefficient: 1) having indirect control transfers determined by system call arguments, 2) controlling and matching internal system state via system calls, and 3) inferring nested argument type for invoking system calls. Failure to handling such challenges will render both fuzzing and symbolic execution inefficient, and thereby, will result in an inefficient hybrid fuzzing. Although these challenges are essential to both fuzzing and symbolic execution, to the best of our knowledge, existing kernel testing approaches either naively use each technique separately without handling such challenges or imprecisely handle a part of challenges only by static analysis.

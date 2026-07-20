@@ -2,8 +2,9 @@
 title: Memory Safety
 date: 2021-01-10 17:10:01
 tags:
+    - Memory Safety
+categories: Techniques
 ---
-
 ### 1. ASAN
 
 https://juejin.cn/post/6844904111570157575
@@ -28,7 +29,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-![image-20210110202244680](https://i.loli.net/2021/01/10/zgxjUHub6L5v2Mc.png)
+![](https://i.loli.net/2021/01/10/zgxjUHub6L5v2Mc.png)
 
 #### 1. ASan工作原理
 

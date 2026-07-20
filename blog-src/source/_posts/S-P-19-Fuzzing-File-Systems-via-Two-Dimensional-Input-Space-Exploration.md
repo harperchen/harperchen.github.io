@@ -3,12 +3,10 @@ title: '[S&P''19] Fuzzing File Systems via Two-Dimensional Input Space Explorati
 date: 2020-12-30 14:08:25
 tags:
 	- File System
-	- Fuzzing
+	- Fuzz Testing
 	- Kernel
-categories:
-	- Papers
+categories: Papers
 ---
-
 #### Abstract
 
 File systems, a basic building block of an OS, are too big and too complex to be bug free. Nevertheless, file systems rely on regular stress-testing tools and formal checkers to find bugs, which are limited due to the ever-increasing complexity of both file systems and OSes. Thus, fuzzing, proven to be an effective and a practical approach, becomes a preferable choice, as it does not need much knowledge about a target. However, three main challenges exist in fuzzing file systems: mutating a large image blob that degrades overall performance, generating image-dependent file operations, and reproducing found bugs, which is difficult for existing OS fuzzers.

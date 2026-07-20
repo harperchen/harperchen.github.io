@@ -4,10 +4,8 @@ date: 2021-02-01 15:39:37
 tags:
   - Static Analysis
   - Kernel
-categories:
-  - Papers
+categories: Papers
 ---
-
 ### Abstract
 
 Operating system kernels are appealing attack targets: compromising the kernel usually allows attackers to bypass all deployed security mechanisms and take control over the entire system. Commodity kernels, like Linux, are written in low-level programming languages that offer only limited type and memory-safety guarantees, enabling adversaries to launch sophisticated run-time attacks against the kernel by exploiting memory-corruption vulnerabilities.

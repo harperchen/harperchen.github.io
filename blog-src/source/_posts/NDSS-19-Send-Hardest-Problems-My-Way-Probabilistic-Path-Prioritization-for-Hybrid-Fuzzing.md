@@ -4,8 +4,10 @@ title: >-
   Hybrid Fuzzing
 date: 2021-06-02 17:52:28
 tags:
+    - Hybrid Fuzzing
+    - Fuzz Testing
+categories: Papers
 ---
-
 ### Abstract
 
 Hybrid fuzzing which combines fuzzing and concolic execution has become an advanced technique for software vulnerability detection. Based on the observation that fuzzing and concolic execution are complementary in nature, the state-of-theart hybrid fuzzing systems deploy “demand launch” and “optimal switch” strategies. Although these ideas sound intriguing, we point out several fundamental limitations in them, due to oversimplified assumptions. We then propose a novel “discriminative dispatch” strategy to better utilize the capability of concolic execution. We design a Monte Carlo based probabilistic path prioritization model to quantify each path’s difficulty and prioritize them for concolic execution. This model treats fuzzing as a random sampling process. It calculates each path’s probability based on the sampling information. Finally, our model prioritizes and assigns the most difficult paths to concolic execution. We implement a prototype system DigFuzz and evaluate our system with two representative datasets. Results show that the concolic execution in DigFuzz outperforms than those in state-of-the-art hybrid fuzzing systems in every major aspect. In particular, the concolic execution in DigFuzz contributes to discovering more vulnerabilities (12 vs. 5) and producing more code coverage (18.9% vs. 3.8%) on the CQE dataset than the concolic execution in Driller.

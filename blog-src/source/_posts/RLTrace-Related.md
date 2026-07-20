@@ -2,8 +2,9 @@
 title: RLTrace Related
 date: 2021-02-02 13:03:23
 tags:
+    - Fuzz Testing
+categories: Techniques
 ---
-
 ##### readelf
 
 readelf is used to detect virtual memory offset.

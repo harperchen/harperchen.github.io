@@ -2,9 +2,8 @@
 title: '[Tech] Taint Analysis'
 date: 2020-09-20 19:15:57
 tags: Taint Analysis
-categories: Taint
+categories: Techniques
 ---
-
 **Taint Analysis Classification**
 
 1. Explicit Analysis

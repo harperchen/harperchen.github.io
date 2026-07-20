@@ -2,10 +2,9 @@
 title: '[Tech] Binary Analysis'
 date: 2021-04-28 16:06:43
 tags:
+    - Binary Analysis
+categories: Techniques
 ---
-
-
-
 Protections Againest Exploitation
 
 ASLR:

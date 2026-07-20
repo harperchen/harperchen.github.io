@@ -102,6 +102,9 @@ theme: cactus
 # Cactus theme overrides (see themes/cactus/_config.yml for all options)
 theme_config:
   colorscheme: classic
+  page_width: 56
+  mathjax:
+    enabled: true
   nav:
     home: /
     articles: /archives/
@@ -116,6 +119,15 @@ theme_config:
       link: https://scholar.google.com.hk/citations?user=PeiNGXEAAAAJ&hl=en
     - icon: mail
       link: mailto:wchenbt@cse.ust.hk
+
+# Autolink bare URLs (https://...) in Markdown via Pandoc
+pandoc:
+  args:
+    - '-f'
+    - 'markdown+autolink_bare_uris'
+    - '-t'
+    - 'html'
+    - '--mathjax'
 
 # Deployment is handled by GitHub Actions (.github/workflows/pages.yml).
 

@@ -5,11 +5,9 @@ author: Wei CHEN
 tags: 
   - ARM
   - MTE
-categories: 
-  - ARM
+categories: Techniques
 description: Configure memory tagging extension (MTE) using Qemu
 ---
-
 ### How to config MTE using Qemu
 
 #### 1. Qemu 5.1.0

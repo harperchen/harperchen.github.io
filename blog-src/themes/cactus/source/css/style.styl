@@ -129,7 +129,7 @@ body
 
 @media (min-width: 480px)
   p
-    text-align: justify
+    text-align: left
 
 @import "_partial/header"
 @import "_partial/post/actions_desktop"
@@ -153,21 +153,30 @@ pre
   padding-bottom: 0
   border: 1px dotted $color-border
   border-radius: 4px
-  font-size: 13px
+  font-size: 12px
   font-family: $font-family-mono
-  line-height: 22px
+  line-height: 20px
+  tab-size: 4
+  -moz-tab-size: 4
   -webkit-border-radius: 4px
 
   code
     display: block
     padding: 0
     border: none
+    background: none
 
-code
-  padding: 0 5px
-  border: 1px dotted $color-border
-  border-radius: 2px
-  -webkit-border-radius: 2px
+// Inline code only — keep pre > code and .highlight code unstyled here.
+:not(pre) > code
+  padding: .1em .22em
+  border: 1px solid rgba(102, 102, 102, .22)
+  border-radius: 4px
+  background: $color-background-code
+  color: $color-text
+  font-size: .88em
+  font-family: $font-family-mono
+  box-decoration-break: clone
+  -webkit-box-decoration-break: clone
 
 .highlight
   overflow-x: auto
@@ -176,6 +185,10 @@ code
   border-radius: 4px
   background: $color-background-code
   font-family: $font-family-mono
+  font-size: 12px
+  line-height: 20px
+  tab-size: 4
+  -moz-tab-size: 4
   // color: $color-accent-3
   -webkit-border-radius: 4px
 
@@ -229,7 +242,7 @@ code
     opacity: .2
 
   .line
-    height: 22px
+    height: 20px
 
 #header-post #actions
   direction: ltr !important

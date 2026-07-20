@@ -2,12 +2,11 @@
 title: '[S&P''19] RAZZER: Finding Kernel Race Bugs through Fuzzing'
 date: 2020-12-24 12:40:46
 tags:
-	- Race Bug
+	- Race Bugs
 	- Fuzz Testing
 	- Kernel
 categories: Papers
 ---
-
 ### Abstract
 
 A data race in a kernel is an important class of bugs, critically impacting the reliability and security of the associated system. As a result of a race, the kernel may become unresponsive. Even worse, an attacker may launch a privilege escalation attack to acquire root privileges.

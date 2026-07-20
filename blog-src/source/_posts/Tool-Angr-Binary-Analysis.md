@@ -2,8 +2,10 @@
 title: '[Tool] Angr Binary Analysis'
 date: 2021-05-31 17:42:33
 tags:
+    - Binary Analysis
+    - Symbolic Execution
+categories: Techniques
 ---
-
 ### Workflow
 
 - Binary Lifting ***libVEX*** : Binary Code  to VEX IR

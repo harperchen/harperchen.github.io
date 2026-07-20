@@ -5,7 +5,6 @@ tags:
 	- Kernel
 categories: Surveys
 ---
-
 Linux内核、驱动程序和硬件的关系，从中可以看出，内核的几个模块，相应的系统调用也可以分为这几类 http://seclab.cs.sunysb.edu/sekar/papers/syscallclassif.htm
 
 1. 进程管理模块

@@ -2,8 +2,9 @@
 title: '[Tech] Thread Safety'
 date: 2020-12-30 18:31:01
 tags:
+    - Race Bugs
+categories: Techniques
 ---
-
 ### TSAN
 
 https://github.com/google/sanitizers

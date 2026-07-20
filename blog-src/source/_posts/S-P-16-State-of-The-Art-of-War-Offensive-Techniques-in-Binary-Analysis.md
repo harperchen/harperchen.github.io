@@ -2,10 +2,9 @@
 title: '[S&P''16] (State of) The Art of War: Offensive Techniques in Binary Analysis'
 date: 2021-06-04 23:29:24
 tags:
-categories:
-    - Paper
+    - Binary Analysis
+categories: Papers
 ---
-
 ### Abstract
 
 Finding and exploiting vulnerabilities in binary code is a challenging task. The lack of high-level, semantically rich information about data structures and control constructs makes the analysis of program properties harder to scale. However, the importance of binary analysis is on the rise. In many situations binary analysis is the only possible way to prove (or disprove) properties about the code that is *actually* executed.

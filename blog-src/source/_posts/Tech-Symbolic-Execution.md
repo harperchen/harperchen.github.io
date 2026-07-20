@@ -2,9 +2,9 @@
 title: '[Tech] Symbolic Execution'
 date: 2021-03-28 12:36:19
 tags:
+    - Symbolic Execution
 categories: Techniques
 ---
-
 #### KLEE
 
 不同版本的KLEE需要不同版本的LLVM，首先安装LLVM，对于新版KLEE，可以使用LLVM高版本，对于KLEE 1.3版本，需要搭配LLVM 3.4 https://github.com/tum-i4/klee-install/blob/master/README.md

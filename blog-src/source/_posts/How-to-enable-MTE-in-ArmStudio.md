@@ -5,11 +5,9 @@ author: Wei CHEN
 tags: 
   - ARM
   - MTE
-categories: 
-  - ARM
+categories: Techniques
 description: Configure memory tagging extension (MTE) using Arm Studio and FVP
 ---
-
 **Prerequisites:**
 
 1. Download and install Arm Development Studio for either [Linux](https://developer.arm.com/documentation/101469/2000/Installation/Installing-on-Linux?lang=en) or [Windows](https://developer.arm.com/documentation/101469/2000/Installation/Installing-on-Windows?lang=en). Obtain a 30-day evaluation license so that the project can be built successfully.

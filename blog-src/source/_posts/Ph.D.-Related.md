@@ -3,10 +3,8 @@ title: Ph.D. Related
 date: 2020-09-13 00:37:55
 tags:  
   - Ph.D.
-categories: 
-  - Ph.D.
+categories: Ph.D.
 ---
-
 3 qualities of successful Ph.D. students: http://matt.might.net/articles/successful-phd-students/
 
 10 reasons Ph.D. students fail: http://matt.might.net/articles/ways-to-fail-a-phd/

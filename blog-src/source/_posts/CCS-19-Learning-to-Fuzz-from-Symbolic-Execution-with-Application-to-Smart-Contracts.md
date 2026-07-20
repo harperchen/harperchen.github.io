@@ -4,8 +4,10 @@ title: >-
   Contracts
 date: 2021-02-23 21:11:37
 tags:
+    - Fuzz Testing
+    - Symbolic Execution
+categories: Papers
 ---
-
 ### Abstract
 
 Fuzzing and symbolic execution are two complementary techniques for discovering software vulnerabilities. Fuzzing is fast and scalable, but can be ineffective when it fails to randomly select the right inputs. Symbolic execution is thorough but slow and often does not scale to deep program paths with complex path conditions.

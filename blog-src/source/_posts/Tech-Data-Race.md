@@ -6,7 +6,6 @@ tags:
 	- Race Bugs
 categories: Surveys
 ---
-
 ### 1. Race Bug
 
 两个访问内存区域的线程，当下面三个条件同时满足时，即可认定是Race bug。
@@ -183,7 +182,7 @@ branch covearge+alias coverage，并提出针对多线程系统调用序列的me
 
 3. 可以将该想法应用到分布式系统里，例如常见的分布式系统kafka和etcd，常见的分布式文件系统ceph、minio和hdfs。
 
-   > Fuzzing distributed file systems that involve not only thread interleavings but also network event ordering, which requires completely new co1verage metrics to capture.
+> Fuzzing distributed file systems that involve not only thread interleavings but also network event ordering, which requires completely new coverage metrics to capture.
 
 ### Related Work
 
