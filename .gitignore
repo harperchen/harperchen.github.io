@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# Hexo
+blog-src/node_modules/
+blog-src/public/
+blog-src/db.json
+blog-src/.deploy*/
+blog-src/_multiconfig.yml
+
+# Local assemble output
+_site/

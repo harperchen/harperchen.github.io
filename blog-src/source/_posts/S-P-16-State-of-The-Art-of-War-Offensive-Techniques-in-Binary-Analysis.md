@@ -1,0 +1,24 @@
+---
+title: '[S&P''16] (State of) The Art of War: Offensive Techniques in Binary Analysis'
+date: 2021-06-04 23:29:24
+tags:
+categories:
+    - Paper
+---
+
+### Abstract
+
+Finding and exploiting vulnerabilities in binary code is a challenging task. The lack of high-level, semantically rich information about data structures and control constructs makes the analysis of program properties harder to scale. However, the importance of binary analysis is on the rise. In many situations binary analysis is the only possible way to prove (or disprove) properties about the code that is *actually* executed.
+
+<!--more-->
+
+In this paper, we present a binary analysis framework that implements a number of analysis techniques that have been proposed in the past. We present a systematized implementation of these techniques, which allows other researchers to compose them and develop new approaches. In addition, the implementation of these techniques in a unifying framework allows for the direct comparison of these approaches and the identification of their advantages and disadvantages. The evaluation included in this paper is performed using a recent dataset created by DARPA for evaluating the effectiveness of binary vulnerability analysis techniques.
+
+Our framework has been open-sourced and is available to the security community.
+
+### Outline
+
+Binary analysis is an import topic, however, many low level language provide few security guarantees.  Also, properties that were proven by analyzing the source code of a program may not hold after the very same program has been compiled
+
+Binary Analysis technique suffers from two problems:
+

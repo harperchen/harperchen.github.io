@@ -519,6 +519,17 @@ a {
 .profile-social a {
     margin-right: 5px;
 }
+.profile-social img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+.profile-social img.profile-blog-icon {
+    width: 36px;
+    height: 36px;
+}
 .profile-info {
     display: flex;
     flex-direction: column;
@@ -610,6 +621,9 @@ a {
             </a>
             <a href="https://scholar.google.com.hk/citations?user=PeiNGXEAAAAJ&hl=en">
                 <img src="google.png" width="33" height="33" onerror="this.style.display = 'none';" alt="Google Scholar">
+            </a>
+            <a href="/blog/">
+              <img src="blog.png" class="profile-blog-icon" width="36" height="36" onerror="this.style.display = 'none';" alt="Blog">
             </a>
           </div>
         </div>

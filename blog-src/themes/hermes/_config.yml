@@ -1,0 +1,21 @@
+menu:
+    Blog: /
+    GitHub: https://github.com/harperchen
+    Archive: archives/
+    Feed: atom.xml
+
+favicon: favicon.png
+logo: favicon.png
+
+# Comment
+# e.g disqus: claymcleod 
+disqus:
+
+# Analytics
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2019
+
+# Image Credits
+enable_image_credit: true 
