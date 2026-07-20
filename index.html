@@ -496,7 +496,7 @@ a {
 
 .profile-header {
     display: flex;
-    align-items: flex-end;
+    align-items: stretch;
     justify-content: space-between;
     gap: 16px;
 }
@@ -520,6 +520,9 @@ a {
     margin-right: 5px;
 }
 .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: right;
     flex: 1;
     min-width: 0;
@@ -533,12 +536,12 @@ a {
     line-height: 1.2;
 }
 .profile-contact {
-    margin: 0.8em 0 0;
+    margin: 0;
     font-size: 1rem;
     line-height: 1.6;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .profile-header {
         flex-direction: column;
         align-items: center;
@@ -558,9 +561,16 @@ a {
         justify-content: center;
     }
     .profile-info {
+        display: block;
         text-align: center;
         width: 100%;
     }
+    .profile-contact {
+        margin-top: 0.8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
     #write {
         padding: 16px 20px 60px;
     }
@@ -677,9 +687,9 @@ a {
 <ul>
     </p>
     <li><b>Program Committee Member</b>, ICSE 2026 Shadow PC</li>
-    <li><b>External Conference Reviewer</b>, ICICS 2019, <a href="https://conf.researchr.org/home/icse-2020">ICSE 2020</a>, <a href="https://asiaccs2021.comp.polyu.edu.hk/">AsiaCCS 2021</a>, <a href="https://raid2023.org/welcome.html" >RAID 2023</a>, ICSE 2024, ISSTA 2024</li>
-    <li><b>Artifact Evaluation Committee</b>,  <a href="https://2019.icse-conferences.org/">ICSE 2019</a>, <a href="https://conf.researchr.org/home/icse-2020">ICSE 2020</a>, <a href="https://www.usenix.org/conference/usenixsecurity20">USENIX 2020</a>, <a href="https://www.usenix.org/conference/atc23">ATC 2023</a>, <a href="https://www.usenix.org/conference/osdi23">OSDI 2023</a>, USENIX 2024
-    <li><b>Volunteer</b>, Student Volunteer @ <a href="https://conf.researchr.org/home/icfp-splash-2025">SPLASH 2025</a></li>
+    <li><b>External Conference Reviewer</b>, ICICS 2019, <a href="https://conf.researchr.org/home/icse-2020">ICSE 2020</a>, <a href="https://asiaccs2021.comp.polyu.edu.hk/">AsiaCCS 2021</a>, <a href="https://raid2023.org/welcome.html" >RAID 2023</a>, ICSE 2024, ISSTA 2024, OOPSLA 2026, ICSE 2027</li>
+    <li><b>Artifact Evaluation Committee</b>,  <a href="https://2019.icse-conferences.org/">ICSE 2019</a>, <a href="https://conf.researchr.org/home/icse-2020">ICSE 2020</a>, <a href="https://www.usenix.org/conference/usenixsecurity20">USENIX 2020</a>, <a href="https://www.usenix.org/conference/atc23">ATC 2023</a>, <a href="https://www.usenix.org/conference/osdi23">OSDI 2023</a>, USENIX 2024</li>
+    <li><b>Student Volunteer</b>, <a href="https://conf.researchr.org/home/icfp-splash-2025">SPLASH 2025</a></li>
   </ul>
 <p></p></li><hr /><p>
     <font size="4"><a href="https://harperchen.github.io/bugs.html"><b>🐛 Found Bugs</b></a></font>
