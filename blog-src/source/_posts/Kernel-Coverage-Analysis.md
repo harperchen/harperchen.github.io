@@ -418,8 +418,6 @@ Github link: https://github.com/harperchen/Build_Linux_Kernel_Into_LLVM_Bitcode.
 
 2. 根据链接的顺序寻找模块
 
-   ![img](c:%5CUsers%5Charpe%5CAppData%5CRoaming%5Cmarktext%5Cimages%5C2022-05-08-19-24-42-image.png)
-
    - Core
      - ipc `ipc/built-in.bc`
      - mm

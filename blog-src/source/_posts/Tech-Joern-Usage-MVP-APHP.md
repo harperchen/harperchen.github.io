@@ -248,12 +248,7 @@ Thus, for the patch above, $S_{add} = \{s_{14}, s_{15}\}$, $S_{del} = \{\}$.
 
 For reference, this is the selected PDG for function after patch.
 
-![graphviz (10)](/Users/harperchen/Downloads/graphviz (10).svg)
-
 For reference, this is the selected PDG for function before patch.
-
-<img src="/Users/harperchen/Downloads/graphviz (11).svg" height="75%" width="75%">
-
 
 
 > Joern does not distinguish `a` and `a->b`, any statement that may be affected will be considered as data dependence related one.

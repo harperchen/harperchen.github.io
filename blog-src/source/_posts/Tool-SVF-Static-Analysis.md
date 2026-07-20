@@ -36,8 +36,6 @@ A scalable, precise and on-demand interprocedural program dependence analysis fr
 - Heap-sensitive
 - Field-sensitive
 
-![image-20210607195801671](/Users/harper/Library/Application%20Support/typora-user-images/image-20210607195801671.png)
-
 ![image-20210607200429237](https://i.loli.net/2021/06/07/nIRUL8qgzKxOmXJ.png)
 
 #### Graph Representation of Code
