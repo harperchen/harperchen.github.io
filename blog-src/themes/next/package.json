@@ -36,9 +36,9 @@
     "c8": "9.1.0",
     "chai": "4.4.1",
     "eslint": "8.55.0",
-    "hexo": "7.1.1",
+    "hexo": "7.3.0",
     "hexo-renderer-marked": "6.2.0",
-    "js-yaml": "4.1.0",
+    "js-yaml": "4.3.1",
     "mocha": "10.3.0",
     "stylelint": "16.2.1",
     "stylelint-stylus": "1.0.0"
